@@ -239,7 +239,7 @@ Also check out my CVE Intelligence AI — a DistilBERT model fine-tuned on 66K C
 
 ## Built By
 
-**Yugam** — CS student exploring AI + cybersecurity  
+**Yugam Thakur** — CS student | AI + cybersecurity  
 GitHub: [@MadjawBadpaw](https://github.com/MadjawBadpaw)
 
 ---
