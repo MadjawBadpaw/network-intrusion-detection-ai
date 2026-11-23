@@ -17,7 +17,6 @@ Upload a network flow CSV and get:
 - Random Forest trained on CICIDS2017 dataset
 - 40,000 balanced samples across 4 classes
 - 78 network flow features
-- 100% accuracy on test set
 - Desktop GUI — no browser needed
 
 ## Tech Stack
@@ -38,7 +37,6 @@ Python · scikit-learn · Random Forest · CustomTkinter · CICFlowMeter
 | Dataset | CICIDS2017 |
 | Classes | BENIGN / DDoS / PortScan / BruteForce |
 | Features | 78 network flow features |
-| Test Accuracy | 100% |
 
 # Network Intrusion Detection AI
 
@@ -205,10 +203,6 @@ python app.py
 | Test accuracy | 100% (CICIDS2017 has highly distinct attack signatures) |
 | Training time | ~1 second (tabular ML, not deep learning) |
 
-### Why 100% Accuracy?
-
-CICIDS2017 is well known in research for having very distinct attack signatures — DDoS, PortScan, and BruteForce traffic patterns are fundamentally different at the flow feature level. This makes classification straightforward for Random Forest. Real-world traffic is noisier and accuracy will vary.
-
 ---
 
 ## Limitations
@@ -236,11 +230,6 @@ Also check out my CVE Intelligence AI — a DistilBERT model fine-tuned on 66K C
 [github.com/MadjawBadpaw/cve-intelligence-ai](https://github.com/MadjawBadpaw/cve-intelligence-ai)
 
 ---
-
-## Built By
-
-**Yugam Thakur** — CS student | AI + cybersecurity  
-GitHub: [@MadjawBadpaw](https://github.com/MadjawBadpaw)
 
 ---
 
